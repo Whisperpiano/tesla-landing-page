@@ -1,0 +1,19 @@
+---
+import Layout from '../layouts/Layout.astro';
+import HeaderLanding from '../components/HeaderLanding.astro';
+import HeroSection from '../components/HeroSection.astro';
+import ChargeSection from '../components/ChargeSection.astro';
+---
+
+<Layout title="Electric Cars, Solar and Clean Energy">
+	<HeaderLanding />
+
+	<main class="snap-y snap-mandatory relative w-full h-screen overflow-auto">
+		<div class="snap-center">
+			<HeroSection />
+		</div>
+		<div class="snap-center">
+			<ChargeSection />
+		</div>
+	</main>
+</Layout>
